@@ -5,7 +5,8 @@
  * and only changed the consonants.You should notice that the last letter changed was from “d” to “f” and not
  *  from “d” to “e” because “e” is a vowel.
  *
- * @param
+ * @param {string} string accepts a string
+ * @returns {string} string that consonants letter are replaced by next consonant letter
  *
  */
 

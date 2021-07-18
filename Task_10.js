@@ -49,5 +49,5 @@ const getCharWithHighestCount = function (string) {
   return JSON.stringify(objectToJSON);
 };
 
-console.log(getCharWithHighestCount("afhuusnimr443o0sggg"));
-console.log(getCharWithHighestCount("hgjjdgk"));
+console.log(getCharWithHighestCount("afhuusnimr443o0sggg")); // output: {"g":3}
+console.log(getCharWithHighestCount("hgjjdgk")); // output: {"g":2,"j":2}

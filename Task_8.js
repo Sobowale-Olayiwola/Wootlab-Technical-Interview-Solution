@@ -5,6 +5,8 @@
 Example:
 Input: 35
 Output: { count: 10, numbers: [3, 13, 23, 30, 31, 32, 33, 34, 35] }
+*@param {number} number accepts number type
+*@returns {array} an array of numbers having 3's between the input nummber and inclusive
  */
 
 const getCountOfthree = function (number) {

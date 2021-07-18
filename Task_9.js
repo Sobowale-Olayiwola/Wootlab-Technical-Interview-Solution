@@ -3,7 +3,8 @@
  *  A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward,
  *  such as madam, racecar. The function should return “Yes” if the word is a palindrome and “No” if it isn’t.
  * You are not to use the programming language’s existing function or method, if any.
- * @param {string} s accepts a
+ * @param {string} s accepts a sequence of character
+ * @returns {string} string Yes or No
  */
 
 const isPalindrome = function (s) {

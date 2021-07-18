@@ -1,0 +1,19 @@
+Given the above SQL tables, write a query that:
+i. Gets a list of tenants who are renting more than one apartment. 
+
+SOLUTION:
+
+SELECT TenantID, COUNT(*) FROM AptTenants
+GROUP BY TenantID HAVING COUNT (*) > 1
+
+ii.  Write a SQL query to get a list of all buildings and the number of open requests
+ (Requests in which status equals 'Open').
+
+ SOLUTION:
+
+ SELECT BuildingID, BuildingName from Building b
+ JOIN Apartments a 
+ ON a.BuildingID = b.BuildingID
+ JOIN Requests r
+ ON a.AptID = r.AptID
+ WHERE r.Status = 'Open'
