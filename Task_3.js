@@ -10,6 +10,7 @@
 
 // function from task 2 used as a utility function in determining prime number
 const isNumberPrime = function (number) {
+  if (number === 2) return true;
   if (number % 2 === 0 || number === 1 || number === 0) {
     return false;
   }
